@@ -1,0 +1,5 @@
+* make random words disappear and replaced with input field so that they can can fill in the blank
+
+* for each verb learned present various context in which it can be used (shopping, etc.)
+
+* get a pic for each sentence example (for a saved word) and displays them in a carousel on the flash card 
