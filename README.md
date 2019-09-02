@@ -1,26 +1,14 @@
-# simply_news
+# Code example: simply_news skeleton
 
-A new Flutter project.
+This is the skeleton of the "simply news" project for code example purposes.
 
-## Getting Started
+It uses
+- [Firebase auth](https://pub.dev/packages/firebase_auth) for authentication.
+- [Cloud firestore](https://cloud.google.com/firestore/) as database.
+- [Spacy](https://spacy.io/) and [Sklearn](https://scikit-learn.org/stable/index.html) for Natural Language Processing (tokenisation, NER, text classification, topic modelling, text summarisation,...).
 
-Articles are passed from server according to the following data structure:
+The project aims at helping english learners by reading through simplified articles focusing on vocabulary specific to the learning stage of the reader. 
 
-`[{
-    type: "definition",
-    text: "sherpa",
-    definition: "A man from Tibet that helps people visiting the Himalayas"
-},{
-    type: "vocab",
-    text: "takes",
-    lemma: "to take",
-    pos: "verb, 3rd person singular present",
-    examples: [
-        "I take a train",
-        "He takes a shower"
-    ]
-}]`
+The application will follow a learning methodology ultimately aimning to teach learners to get by in many situations using limited vocabulary.
 
-## ATTENTION
-
-During the login/signup flow, the require auth parent component will re-build on successful authentication (when state is being updated) and will then redirect user to the page originally requested. Thus neither the Login orr Signup widget should perform a redirection.
+The user will be able to save vocabulary into flash cards
